@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		803EE6B32AC870D500B7FEB8 /* OffersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803EE6B22AC870D500B7FEB8 /* OffersPage.swift */; };
+		803EE6B72AC8770900B7FEB8 /* MenuPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803EE6B62AC8770900B7FEB8 /* MenuPage.swift */; };
+		803EE6B92AC8773500B7FEB8 /* OrdersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803EE6B82AC8773500B7FEB8 /* OrdersPage.swift */; };
+		803EE6BB2AC8773C00B7FEB8 /* InfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803EE6BA2AC8773C00B7FEB8 /* InfoPage.swift */; };
+		803EE6BD2AC8780C00B7FEB8 /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803EE6BC2AC8780C00B7FEB8 /* ProductItem.swift */; };
+		803EE6BF2AC88DC000B7FEB8 /* DetailsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803EE6BE2AC88DC000B7FEB8 /* DetailsPage.swift */; };
 		807F12F32AA7E7A600906A3B /* CoffeeMastersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807F12F22AA7E7A600906A3B /* CoffeeMastersApp.swift */; };
 		807F12F52AA7E7A600906A3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807F12F42AA7E7A600906A3B /* ContentView.swift */; };
 		807F12F72AA7E7A700906A3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807F12F62AA7E7A700906A3B /* Assets.xcassets */; };
 		807F12FA2AA7E7A700906A3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807F12F92AA7E7A700906A3B /* Preview Assets.xcassets */; };
+		807F13032AA7F13400906A3B /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807F13022AA7F13400906A3B /* Offer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		803EE6B22AC870D500B7FEB8 /* OffersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersPage.swift; sourceTree = "<group>"; };
+		803EE6B62AC8770900B7FEB8 /* MenuPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPage.swift; sourceTree = "<group>"; };
+		803EE6B82AC8773500B7FEB8 /* OrdersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersPage.swift; sourceTree = "<group>"; };
+		803EE6BA2AC8773C00B7FEB8 /* InfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPage.swift; sourceTree = "<group>"; };
+		803EE6BC2AC8780C00B7FEB8 /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
+		803EE6BE2AC88DC000B7FEB8 /* DetailsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPage.swift; sourceTree = "<group>"; };
 		807F12EF2AA7E7A600906A3B /* CoffeeMasters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeMasters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		807F12F22AA7E7A600906A3B /* CoffeeMastersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMastersApp.swift; sourceTree = "<group>"; };
 		807F12F42AA7E7A600906A3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		807F12F62AA7E7A700906A3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		807F12F92AA7E7A700906A3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		807F13022AA7F13400906A3B /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +46,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		803EE6B42AC8767900B7FEB8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				807F13022AA7F13400906A3B /* Offer.swift */,
+				803EE6BC2AC8780C00B7FEB8 /* ProductItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		803EE6B52AC8768D00B7FEB8 /* Page Views */ = {
+			isa = PBXGroup;
+			children = (
+				803EE6B22AC870D500B7FEB8 /* OffersPage.swift */,
+				803EE6B62AC8770900B7FEB8 /* MenuPage.swift */,
+				803EE6B82AC8773500B7FEB8 /* OrdersPage.swift */,
+				803EE6BA2AC8773C00B7FEB8 /* InfoPage.swift */,
+				803EE6BE2AC88DC000B7FEB8 /* DetailsPage.swift */,
+			);
+			path = "Page Views";
+			sourceTree = "<group>";
+		};
 		807F12E62AA7E7A600906A3B = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +86,8 @@
 		807F12F12AA7E7A600906A3B /* CoffeeMasters */ = {
 			isa = PBXGroup;
 			children = (
+				803EE6B52AC8768D00B7FEB8 /* Page Views */,
+				803EE6B42AC8767900B7FEB8 /* Views */,
 				807F12F22AA7E7A600906A3B /* CoffeeMastersApp.swift */,
 				807F12F42AA7E7A600906A3B /* ContentView.swift */,
 				807F12F62AA7E7A700906A3B /* Assets.xcassets */,
@@ -95,7 +132,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					807F12EE2AA7E7A600906A3B = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -137,7 +174,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				807F13032AA7F13400906A3B /* Offer.swift in Sources */,
+				803EE6B32AC870D500B7FEB8 /* OffersPage.swift in Sources */,
+				803EE6B72AC8770900B7FEB8 /* MenuPage.swift in Sources */,
+				803EE6BF2AC88DC000B7FEB8 /* DetailsPage.swift in Sources */,
+				803EE6BB2AC8773C00B7FEB8 /* InfoPage.swift in Sources */,
+				803EE6BD2AC8780C00B7FEB8 /* ProductItem.swift in Sources */,
 				807F12F52AA7E7A600906A3B /* ContentView.swift in Sources */,
+				803EE6B92AC8773500B7FEB8 /* OrdersPage.swift in Sources */,
 				807F12F32AA7E7A600906A3B /* CoffeeMastersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,6 +225,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -241,6 +286,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
